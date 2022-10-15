@@ -93,7 +93,21 @@
   padding: 15px;
 }
 
+.main-news h2 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 15px;
+}
+
 .main h5 {
+  font-family: 'Montserrat', sans-serif;
+
+  text-align: center;
+  padding: 15px;
+
+}
+
+.main-news h5 {
   font-family: 'Montserrat', sans-serif;
 
   text-align: center;
@@ -115,7 +129,20 @@
 
 }
 
+.main-news h3 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 15px;
+
+}
+
 .main p {
+  font-family: 'Raleway', sans-serif;
+  text-align: justify;
+  padding: 5px;
+}
+
+.main-news p {
   font-family: 'Raleway', sans-serif;
   text-align: justify;
   padding: 5px;
@@ -124,6 +151,14 @@
 .main img {
   width: 100%;
   padding: 2px;
+}
+
+.main-news img {
+  width: 60%;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .side p {
@@ -166,6 +201,24 @@
   background-color: white;
   padding: 20px;
 }
+
+.main-news {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.main-news hr {
+
+  height: 1px;
+  background-color: black;
+  border-color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+
 
 .side img {
 
