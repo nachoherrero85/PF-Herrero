@@ -11,7 +11,7 @@
 .menu {
   padding: 10px;
   text-align: center;
-  background-color: rgb(198, 42, 234);
+  background-color: rgb(255, 255, 255);
   position: sticky;
   top: 0;
   z-index: 10;
@@ -21,8 +21,8 @@
 
 .nav-bar h1 {
   font-family: 'Montserrat', sans-serif;
-  text-shadow: 0.1em 0.1em rgb(228, 216, 216);
-  font-size: 35px;
+  text-shadow: 0.1em 0.1em rgb(145, 139, 139);
+  font-size: 20px;
   color: black;
   padding: 5px;
 
@@ -33,7 +33,7 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   color: black;
-  text-shadow: 0.1em 0.1em rgb(228, 216, 216);
+  text-shadow: 0.1em 0.1em rgb(0, 0, 0);
 
 
 
@@ -59,14 +59,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(198, 42, 234);
+  background-color: rgb(255, 255, 255);
 
 
 }
 
 
 .nav-bar a {
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
@@ -74,8 +74,8 @@
 
 
 .nav-bar a:hover {
-  background-color: rgba(222, 117, 235, 0.373);
-  color: black;
+  background-color: rgba(0, 0, 0, 0.373);
+  color: rgb(255, 255, 255);
 }
 
 
@@ -97,12 +97,7 @@
 
 }
 
-.side p {
-  font-family: 'Raleway', sans-serif;
-  text-align: justify;
-  padding: 5px;
 
-}
 
 
 .side {
@@ -236,20 +231,20 @@
 }
 
 .main p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: justify;
   padding: 5px;
 }
 
 .main-news1 p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: justify;
   padding: 5px;
 
 }
 
 .main-news2 p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: justify;
   padding: 5px;
 }
@@ -276,7 +271,7 @@
 }
 
 .side p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: justify;
   padding: 5px;
 
