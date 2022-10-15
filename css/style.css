@@ -22,9 +22,10 @@
 .nav-bar h1 {
   font-family: 'Montserrat', sans-serif;
   text-shadow: 0.1em 0.1em rgb(145, 139, 139);
-  font-size: 20px;
+  font-size: 35px;
   color: black;
   padding: 5px;
+  font-weight: bold;
 
 
 }
@@ -88,12 +89,14 @@
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding: 15px;
+  font-weight: 600;
 }
 
 .side h3 {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding: 15px;
+  font-weight: 600;
 
 }
 
@@ -169,18 +172,21 @@
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding: 15px;
+  font-weight: 600;
 }
 
 .main-news1 h2 {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding: 15px;
+  font-weight: 600;
 }
 
 .main-news2 h2 {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding: 15px;
+  font-weight: 600;
 }
 
 .main h5 {
@@ -188,6 +194,7 @@
 
   text-align: center;
   padding: 15px;
+  font-weight: 600;
 
 }
 
@@ -196,6 +203,7 @@
 
   text-align: center;
   padding: 15px;
+  font-weight: 600;
 
 }
 
@@ -204,6 +212,7 @@
 
   text-align: center;
   padding: 15px;
+  font-weight: 600;
 
 }
 
@@ -213,6 +222,7 @@
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding: 15px;
+  font-weight: 600;
 
 }
 
@@ -220,6 +230,7 @@
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding: 15px;
+  font-weight: 600;
 
 }
 
@@ -227,6 +238,7 @@
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding: 15px;
+  font-weight: 600;
 
 }
 
@@ -469,6 +481,11 @@ figure {
   margin-top: 5px;
 }
 
+.article-content p {
+  font-family: 'Roboto', sans-serif;
+
+}
+
 .article-info {
   display: flex;
   font-size: 0.85em;
@@ -507,4 +524,10 @@ figure {
   .nested-column {
     flex: 2;
   }
+}
+
+#carouselExampleIndicators {
+  width: 80%;
+
+  margin: 0 auto;
 }
