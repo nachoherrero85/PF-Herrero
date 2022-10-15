@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* Header/logo Title */
+.menu {
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(201, 192, 203);
+  position: sticky;
+  top: 0;
+
+
+}
+
+.nav-bar h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  color: black;
+  padding: 5px;
+
+
+}
+
+.nav-bar h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: black;
+
+
+
+}
+
+.menu p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: black;
+  padding: 10px;
+
+}
+
+.menu hr {
+  height: 2px;
+  background-color: black;
+  border-color: black;
+}
+
+
+/* Style the top navigation bar */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(201, 192, 203);
+
+
+}
+
+/* Style the navigation bar links */
+.nav-bar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.nav-bar a:hover {
+  background-color: rgba(222, 117, 235, 0.373);
+  color: black;
+}
+
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side h2 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 15px;
+}
+
+.main h2 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 15px;
+}
+
+.main h5 {
+  font-family: 'Montserrat', sans-serif;
+
+  text-align: center;
+  padding: 15px;
+
+}
+
+.side h3 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 15px;
+
+}
+
+.main h3 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 15px;
+
+}
+
+.main p {
+  font-family: 'Raleway', sans-serif;
+  text-align: justify;
+  padding: 5px;
+}
+
+.main img {
+  width: 100%;
+  padding: 2px;
+}
+
+.side p {
+  font-family: 'Raleway', sans-serif;
+  text-align: justify;
+  padding: 5px;
+
+}
+
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  text-align: justify;
+}
+
+.side hr {
+
+  height: 1px;
+  background-color: black;
+  border-color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.main hr {
+
+  height: 1px;
+  background-color: black;
+  border-color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.side img {
+
+  width: 100%;
+  padding: 2px;
+
+
+}
+
+.fakeimg img {
+  width: 80%;
+  max-width: 80%;
+  height: 200px;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/*ACA EMPIEZA CSS GALERIA*/
+
+/*ACA EMPIEZA CSS GALERIA*/
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 768px) {
+
+  .row,
+  .nav-bar {
+    flex-direction: column;
+  }
+
+  #galeria {
+    width: 350px;
+  }
+
+  nav ul li a img {
+    width: 80px;
+    opacity: 50%;
+    transition: 0.3s;
+    filter: grayscale(50%);
+  }
+
+
+
+
+}
