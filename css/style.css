@@ -20,6 +20,7 @@
 
 .nav-bar h1 {
   font-family: 'Montserrat', sans-serif;
+  text-shadow: 0.1em 0.1em rgb(228, 216, 216);
   font-size: 35px;
   color: black;
   padding: 5px;
@@ -31,6 +32,7 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   color: black;
+  text-shadow: 0.1em 0.1em rgb(228, 216, 216);
 
 
 
@@ -228,11 +230,8 @@
 
 }
 
-.fakeimg img {
-  width: 80%;
-  max-width: 80%;
-  height: 200px;
-  padding: 20px;
+.side img:hover {
+  filter: opacity(.5);
 }
 
 /* Footer */
@@ -265,6 +264,10 @@
     filter: grayscale(50%);
   }
 
+  .main-news img {
+    width: 100%;
+
+  }
 
 
 
