@@ -594,3 +594,9 @@ li a:hover {
 }
 
 /*............................GALERIA IMAGENES......................................*/
+
+.imagen-galeria img:hover {
+
+  box-shadow: 0 14px 28px rgba(14, 14, 207, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  color: #444;
+}
