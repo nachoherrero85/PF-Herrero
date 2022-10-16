@@ -572,6 +572,8 @@ listing li {
 
 .foto-port :hover {
   filter: grayscale(80%);
+  box-shadow: 0 14px 28px rgba(203, 65, 18, 0.25), 0 10px 10px rgba(214, 30, 30, 0.22);
+  color: #444;
 
 }
 
