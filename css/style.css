@@ -19,19 +19,21 @@
 
 }
 
+
+
 .nav-bar h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-shadow: 0.1em 0.1em rgb(145, 139, 139);
-  font-size: 35px;
+  font-size: 40px;
   color: black;
   padding: 5px;
-  font-weight: bold;
+
 
 
 }
 
 .nav-bar h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   color: black;
   text-shadow: 0.1em 0.1em rgb(0, 0, 0);
@@ -41,7 +43,7 @@
 }
 
 .menu p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   color: black;
   padding: 10px;
@@ -69,6 +71,8 @@
 .nav-bar a {
   color: rgb(0, 0, 0);
   padding: 14px 20px;
+  font-family: 'Roboto', sans-serif;
+
   text-decoration: none;
   text-align: center;
 }
@@ -80,10 +84,10 @@
 }
 
 
-.row {
+/*.row {
   display: flex;
   flex-wrap: wrap;
-}
+}*/
 
 .side h2 {
   font-family: 'Montserrat', sans-serif;
@@ -169,28 +173,28 @@
 }
 
 .main h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   padding: 15px;
   font-weight: 600;
 }
 
 .main-news1 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   padding: 15px;
   font-weight: 600;
 }
 
 .main-news2 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   padding: 15px;
   font-weight: 600;
 }
 
 .main h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 
   text-align: center;
   padding: 15px;
@@ -198,23 +202,7 @@
 
 }
 
-.main-news1 h5 {
-  font-family: 'Montserrat', sans-serif;
 
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-
-}
-
-.main-news2 h5 {
-  font-family: 'Montserrat', sans-serif;
-
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-
-}
 
 
 
@@ -226,21 +214,7 @@
 
 }
 
-.main-news1 h3 {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
 
-}
-
-.main-news2 h3 {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-
-}
 
 .main p {
   font-family: 'Roboto', sans-serif;
@@ -248,45 +222,20 @@
   padding: 5px;
 }
 
-.main-news1 p {
-  font-family: 'Roboto', sans-serif;
-  text-align: justify;
-  padding: 5px;
 
-}
 
-.main-news2 p {
-  font-family: 'Roboto', sans-serif;
-  text-align: justify;
-  padding: 5px;
-}
 
 .main img {
   width: 100%;
   padding: 2px;
 }
 
-.main-news1 img {
-  width: 100%;
-  padding: 2px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
-.main-news2 img {
-  width: 100%;
-  padding: 2px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
 
 .side p {
   font-family: 'Roboto', sans-serif;
   text-align: justify;
   padding: 5px;
-
+  text-decoration: none;
 }
 
 
@@ -325,17 +274,13 @@
 
 
 /* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-}
+
 
 
 
 @media screen and (max-width: 768px) {
 
-  .row,
+
   .nav-bar {
     flex-direction: column;
   }
@@ -356,50 +301,34 @@
 
   }
 
-  .delimitador {
-    width: 200px;
-    /* Ancho máximo */
-    margin: auto;
-    /* Centramos el vídeo */
-  }
-
-
 }
 
 
-@import url(https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css);
-
-html {
-  background: rgb(255, 255, 255);
-  font-size: 14px;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  min-width: 300px;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  text-rendering: optimizeLegibility;
-}
 
 
+
+/*
 
 a {
+  font-family: 'Roboto';
   text-decoration: none;
   transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+
 }
 
 div,
 h2,
 p,
 figure {
+  font-family: 'Roboto';
   margin: 0;
   padding: 0;
 }
 
-
-
 .header h1 {
   font-size: 40px;
   font-weight: bold;
+  font-family: 'Roboto';
 }
 
 .header h2 a {
@@ -407,23 +336,21 @@ figure {
   color: white;
   font-size: 20px;
   opacity: 0.5;
+  font-family: 'Roboto';
 }
 
 .header h2 a:hover {
   border-bottom-color: white;
   opacity: 1;
+  font-family: 'Roboto';
 }
+*/
 
-.main {
-  margin: 0 auto;
-  /*max-width: 1040px;*/
-  padding: 10px;
-}
 
-.column {
+/*.column {
   flex: 1;
   flex-direction: column;
-}
+}*/
 
 .article {
   background: white;
@@ -434,6 +361,7 @@ figure {
   flex-direction: column;
   flex-basis: auto;
   margin: 10px;
+
 }
 
 .article:hover,
@@ -480,17 +408,18 @@ figure {
   font-size: 1.4em;
   font-weight: 700;
   line-height: 1.2;
+
 }
 
 .article-content {
   flex: 1;
   margin-top: 5px;
-}
-
-.article-content p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
+  text-decoration: none !important;
 
 }
+
+
 
 .article-info {
   display: flex;
@@ -499,13 +428,7 @@ figure {
   margin-top: 10px;
 }
 
-@media screen and (min-width: 800px) {
 
-  .columns,
-  .column {
-    display: flex;
-  }
-}
 
 @media screen and (min-width: 1000px) {
   .first-article {
@@ -550,7 +473,7 @@ footer {
 }
 
 footer .content {
-  max-width: 1350px;
+  max-width: 100%;
   margin: auto;
   padding: 20px;
   display: flex;
@@ -566,7 +489,7 @@ a {
 }
 
 footer .content .box {
-  width: 33%;
+  width: 30%;
   transition: all 0.4s ease;
 }
 
@@ -695,4 +618,30 @@ footer a:hover {
   footer .content .middle {
     padding-left: 0;
   }
+}
+
+/*----------------------------------------------------------------*/
+.column {
+
+  width: 350px;
+  margin: 0 auto;
+
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 768px) {
+  .column {
+    width: 90%;
+  }
+}
+
+.column img {
+  width: 100%;
 }
