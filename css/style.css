@@ -664,8 +664,13 @@ button {
   border-color: #000000;
   border-style: solid;
   border-radius: 10px;
-  width: 100%;
+  width: 40%;
   cursor: pointer;
+}
+
+button:hover {
+  background-color: #000000;
+  border-color: #ffffff;
 }
 
 
@@ -673,6 +678,10 @@ button p {
   color: rgb(0, 0, 0);
   font-family: 'Roboto', sans-serif;
 
+}
+
+button p:hover {
+  color: rgb(255, 255, 255);
 }
 
 
