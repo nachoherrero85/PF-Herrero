@@ -1,40 +1,32 @@
-anime.timeline({ loop: true })
-    .add({
-        targets: '.ml5 .line',
-        opacity: [0.5, 1],
-        scaleX: [0, 1],
-        easing: "easeInOutExpo",
-        duration: 700
-    }).add({
-        targets: '.ml5 .line',
-        duration: 600,
-        easing: "easeOutExpo",
-        translateY: (el, i) => (-0.625 + 0.625 * 2 * i) + "em"
-    }).add({
-        targets: '.ml5 .ampersand',
-        opacity: [0, 1],
-        scaleY: [0.5, 1],
-        easing: "easeOutExpo",
-        duration: 600,
-        offset: '-=600'
-    }).add({
-        targets: '.ml5 .letters-left',
-        opacity: [0, 1],
-        translateX: ["0.5em", 0],
-        easing: "easeOutExpo",
-        duration: 600,
-        offset: '-=300'
-    }).add({
-        targets: '.ml5 .letters-right',
-        opacity: [0, 1],
-        translateX: ["-0.5em", 0],
-        easing: "easeOutExpo",
-        duration: 600,
-        offset: '-=600'
-    }).add({
-        targets: '.ml5',
-        opacity: 0,
-        duration: 1000,
-        easing: "easeOutExpo",
-        delay: 1000
+var gallery = document.querySelector('#gallery');
+var getVal = function (elem, style) { return parseInt(window.getComputedStyle(elem).getPropertyValue(style)); };
+var getHeight = function (item) { return item.querySelector('.content').getBoundingClientRect().height; };
+var resizeAll = function () {
+    var altura = getVal(gallery, 'grid-auto-rows');
+    var gap = getVal(gallery, 'grid-row-gap');
+    gallery.querySelectorAll('.gallery-item').forEach(function (item) {
+        var el = item;
+        el.style.gridRowEnd = "span " + Math.ceil((getHeight(item) + gap) / (altura + gap));
     });
+};
+gallery.querySelectorAll('img').forEach(function (item) {
+    item.classList.add('byebye');
+    if (item.complete) {
+        console.log(item.src);
+    }
+    else {
+        item.addEventListener('load', function () {
+            var altura = getVal(gallery, 'grid-auto-rows');
+            var gap = getVal(gallery, 'grid-row-gap');
+            var gitem = item.parentElement.parentElement;
+            gitem.style.gridRowEnd = "span " + Math.ceil((getHeight(gitem) + gap) / (altura + gap));
+            item.classList.remove('byebye');
+        });
+    }
+});
+window.addEventListener('resize', resizeAll);
+gallery.querySelectorAll('.gallery-item').forEach(function (item) {
+    item.addEventListener('click', function () {
+        item.classList.toggle('full');
+    });
+});
