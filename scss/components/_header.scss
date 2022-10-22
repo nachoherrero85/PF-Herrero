@@ -19,8 +19,8 @@
 
     hr {
         height: 2px;
-        background-color: black;
-        border-color: black;
+        background-color: rgb(172, 11, 11);
+        border-color: rgb(172, 11, 11);
     }
 
     .nav-bar {
@@ -41,7 +41,7 @@
             text-align: center;
 
             &:hover {
-                background-color: rgba(0, 0, 0, 0.373);
+                background-color: rgb(241, 46, 46);
                 color: rgb(255, 255, 255);
             }
         }
@@ -52,6 +52,7 @@
             font-size: 40px;
             color: black;
             padding: 5px;
+
         }
 
         h3 {

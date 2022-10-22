@@ -4,9 +4,12 @@
   margin: 0;
   padding: 0; }
 
-.cabecera h2 {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center; }
+.cabecera {
+  border-bottom: 2px solid orangered; }
+  .cabecera h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: bold; }
 
 /*GRID PUEDE IR DE ACA*/
 /*TODAS LAS CLASES QUE SE USAN PARA APLICAR EN MUCHOS ELEMENTOS*/
@@ -25,8 +28,8 @@
     padding: 10px; }
   .menu hr {
     height: 2px;
-    background-color: black;
-    border-color: black; }
+    background-color: #ac0b0b;
+    border-color: #ac0b0b; }
   .menu .nav-bar {
     display: flex;
     align-items: center;
@@ -39,7 +42,7 @@
       text-decoration: none;
       text-align: center; }
       .menu .nav-bar a:hover {
-        background-color: rgba(0, 0, 0, 0.373);
+        background-color: #f12e2e;
         color: white; }
     .menu .nav-bar h1 {
       font-family: 'Roboto', sans-serif;
@@ -77,23 +80,26 @@
       color: #444; }
   .listing .body {
     padding: 10px;
-    border-top: 1px solid #000000; }
+    background-color: rgba(217, 197, 197, 0.583);
+    height: 100px; }
     .listing .body p {
       font-family: 'Roboto', sans-serif;
-      text-align: justify; }
+      text-align: justify;
+      padding: 5px; }
   .listing h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     text-align: center; }
   .listing li {
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 5px;
     display: flex;
     flex-direction: column; }
     .listing li a {
       font-family: 'Roboto', sans-serif;
       text-decoration: none;
-      color: #000; }
+      color: #000;
+      background-color: #d6d0d0; }
       .listing li a:hover {
         color: #eb2f06; }
 

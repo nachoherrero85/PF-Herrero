@@ -34,11 +34,16 @@
 
     .body {
         padding: 10px;
-        border-top: 1px solid #000000;
+        background-color: $fondo-noticias;
+        height: 100px;
+
+
 
         p {
             font-family: 'Roboto', sans-serif;
             text-align: justify;
+            padding: 5px;
+
         }
 
     }
@@ -61,6 +66,7 @@
             font-family: 'Roboto', sans-serif;
             text-decoration: none;
             color: #000;
+            background-color: $a-noticias;
 
             &:hover {
                 color: #eb2f06;
