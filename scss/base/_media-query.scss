@@ -3,6 +3,21 @@
         width: 90%;
     }
 
+    .listing .foto-port img {
+
+        height: 210px;
+        margin-bottom: 5px;
+    }
+
+    .listing {
+
+        margin: 0.2em;
+        gap: 10px;
+        margin-top: 10px;
+        padding: 5px;
+
+    }
+
     .nav-bar {
         flex-direction: column;
     }
@@ -12,10 +27,17 @@
     }
 
     nav ul li a img {
-        width: 80px;
+        width: 100%;
         opacity: 50%;
         transition: 0.3s;
         filter: grayscale(50%);
+    }
+
+    .menu .nav-bar h1 {
+        margin: 0 auto;
+        text-align: center;
+        color: rgb(0, 0, 0);
+
     }
 
     .main-news img {

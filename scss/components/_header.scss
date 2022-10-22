@@ -8,6 +8,8 @@
     position: sticky;
     top: 0;
     z-index: 10;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
 
     p {
         font-family: 'Roboto', sans-serif;
@@ -19,8 +21,8 @@
 
     hr {
         height: 2px;
-        background-color: rgb(172, 11, 11);
-        border-color: rgb(172, 11, 11);
+        background-color: rgb(255, 0, 0);
+        border-color: rgb(255, 0, 0);
     }
 
     .nav-bar {
@@ -52,6 +54,7 @@
             font-size: 40px;
             color: black;
             padding: 5px;
+            margin-right: 20px;
 
         }
 

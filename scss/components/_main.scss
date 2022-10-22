@@ -23,7 +23,7 @@
 
             &:hover {
                 filter: grayscale(80%);
-                box-shadow: 0 14px 28px rgba(203, 65, 18, 0.25), 0 10px 10px rgba(214, 30, 30, 0.22);
+                box-shadow: 0 14px 28px rgb(235, 64, 7), 0 10px 10px rgb(214, 30, 30);
                 color: #444;
 
             }
@@ -35,7 +35,7 @@
     .body {
         padding: 10px;
         background-color: $fondo-noticias;
-        height: 100px;
+        height: 120px;
 
 
 
@@ -52,6 +52,7 @@
         font-family: 'Roboto', sans-serif;
         font-size: 25px;
         text-align: center;
+        padding: 10px;
 
     }
 

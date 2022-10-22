@@ -20,7 +20,9 @@
   background-color: white;
   position: sticky;
   top: 0;
-  z-index: 10; }
+  z-index: 10;
+  border-top: 2px solid red;
+  border-bottom: 2px solid red; }
   .menu p {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -28,8 +30,8 @@
     padding: 10px; }
   .menu hr {
     height: 2px;
-    background-color: #ac0b0b;
-    border-color: #ac0b0b; }
+    background-color: red;
+    border-color: red; }
   .menu .nav-bar {
     display: flex;
     align-items: center;
@@ -49,7 +51,8 @@
       text-shadow: 0.1em 0.1em #918b8b;
       font-size: 40px;
       color: black;
-      padding: 5px; }
+      padding: 5px;
+      margin-right: 20px; }
     .menu .nav-bar h3 {
       font-family: 'Roboto', sans-serif;
       font-size: 20px;
@@ -76,12 +79,12 @@
     margin-bottom: 15px; }
     .listing .foto-port img:hover {
       filter: grayscale(80%);
-      box-shadow: 0 14px 28px rgba(203, 65, 18, 0.25), 0 10px 10px rgba(214, 30, 30, 0.22);
+      box-shadow: 0 14px 28px #eb4007, 0 10px 10px #d61e1e;
       color: #444; }
   .listing .body {
     padding: 10px;
     background-color: rgba(217, 197, 197, 0.583);
-    height: 100px; }
+    height: 120px; }
     .listing .body p {
       font-family: 'Roboto', sans-serif;
       text-align: justify;
@@ -89,7 +92,8 @@
   .listing h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    text-align: center; }
+    text-align: center;
+    padding: 10px; }
   .listing li {
     border: 1px solid white;
     border-radius: 5px;
@@ -129,15 +133,27 @@ footer {
 @media screen and (max-width: 768px) {
   .column {
     width: 90%; }
+  .listing .foto-port img {
+    height: 210px;
+    margin-bottom: 5px; }
+  .listing {
+    margin: 0.2em;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 5px; }
   .nav-bar {
     flex-direction: column; }
   #galeria {
     width: 100%; }
   nav ul li a img {
-    width: 80px;
+    width: 100%;
     opacity: 50%;
     transition: 0.3s;
     filter: grayscale(50%); }
+  .menu .nav-bar h1 {
+    margin: 0 auto;
+    text-align: center;
+    color: black; }
   .main-news img {
     width: 100%; }
   .listing {
