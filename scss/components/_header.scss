@@ -1,0 +1,64 @@
+@import "../base/variables";
+/*------------------------HEADER-------------------------*/
+
+.menu {
+    padding: 5px;
+    text-align: center;
+    background-color: $menu-color;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        color: black;
+        padding: 10px;
+
+    }
+
+    hr {
+        height: 2px;
+        background-color: black;
+        border-color: black;
+    }
+
+    .nav-bar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+
+
+
+
+        a {
+            color: rgb(0, 0, 0);
+            padding: 5px 10px;
+            font-family: 'Roboto', sans-serif;
+
+            text-decoration: none;
+            text-align: center;
+
+            &:hover {
+                background-color: rgba(0, 0, 0, 0.373);
+                color: rgb(255, 255, 255);
+            }
+        }
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            text-shadow: 0.1em 0.1em rgb(145, 139, 139);
+            font-size: 40px;
+            color: black;
+            padding: 5px;
+        }
+
+        h3 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            color: black;
+            text-shadow: 0.1em 0.1em rgb(0, 0, 0);
+        }
+    }
+}

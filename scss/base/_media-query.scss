@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px) {
+    .column {
+        width: 90%;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    #galeria {
+        width: 100%;
+    }
+
+    nav ul li a img {
+        width: 80px;
+        opacity: 50%;
+        transition: 0.3s;
+        filter: grayscale(50%);
+    }
+
+    .main-news img {
+        width: 100%;
+
+    }
+
+    .listing {
+        height: auto;
+
+
+
+
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    .first-article {
+        flex-direction: row;
+    }
+}

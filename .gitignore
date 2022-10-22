@@ -1,0 +1,5 @@
+*.txt
+
+#carpeta node modules
+
+node_modules/

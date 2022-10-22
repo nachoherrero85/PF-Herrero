@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial;
+  margin: 0;
+  padding: 0; }
+
+.cabecera h2 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center; }
+
+/*GRID PUEDE IR DE ACA*/
+/*TODAS LAS CLASES QUE SE USAN PARA APLICAR EN MUCHOS ELEMENTOS*/
+/*------------------------HEADER-------------------------*/
+.menu {
+  padding: 5px;
+  text-align: center;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10; }
+  .menu p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: black;
+    padding: 10px; }
+  .menu hr {
+    height: 2px;
+    background-color: black;
+    border-color: black; }
+  .menu .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white; }
+    .menu .nav-bar a {
+      color: black;
+      padding: 5px 10px;
+      font-family: 'Roboto', sans-serif;
+      text-decoration: none;
+      text-align: center; }
+      .menu .nav-bar a:hover {
+        background-color: rgba(0, 0, 0, 0.373);
+        color: white; }
+    .menu .nav-bar h1 {
+      font-family: 'Roboto', sans-serif;
+      text-shadow: 0.1em 0.1em #918b8b;
+      font-size: 40px;
+      color: black;
+      padding: 5px; }
+    .menu .nav-bar h3 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+      color: black;
+      text-shadow: 0.1em 0.1em black; }
+
+.listing {
+  list-style: none;
+  margin: 2em;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  border-top: 1PX solid #000;
+  border-bottom: 1px solid #000;
+  margin-top: auto;
+  padding: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: white; }
+  .listing .foto-port img {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 15px; }
+    .listing .foto-port img:hover {
+      filter: grayscale(80%);
+      box-shadow: 0 14px 28px rgba(203, 65, 18, 0.25), 0 10px 10px rgba(214, 30, 30, 0.22);
+      color: #444; }
+  .listing .body {
+    padding: 10px;
+    border-top: 1px solid #000000; }
+    .listing .body p {
+      font-family: 'Roboto', sans-serif;
+      text-align: justify; }
+  .listing h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: center; }
+  .listing li {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; }
+    .listing li a {
+      font-family: 'Roboto', sans-serif;
+      text-decoration: none;
+      color: #000; }
+      .listing li a:hover {
+        color: #eb2f06; }
+
+.cta {
+  margin-top: auto;
+  border-top: 1px solid #000000;
+  padding: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000; }
+  .cta a {
+    text-decoration: none; }
+    .cta a:hover {
+      color: #eb2f06; }
+
+footer {
+  background-color: #eee6e5; }
+  footer .col-auto button {
+    color: #000;
+    border-color: #000; }
+    footer .col-auto buttonhover {
+      color: white;
+      border-color: white;
+      background-color: #000; }
+
+@media screen and (max-width: 768px) {
+  .column {
+    width: 90%; }
+  .nav-bar {
+    flex-direction: column; }
+  #galeria {
+    width: 100%; }
+  nav ul li a img {
+    width: 80px;
+    opacity: 50%;
+    transition: 0.3s;
+    filter: grayscale(50%); }
+  .main-news img {
+    width: 100%; }
+  .listing {
+    height: auto; } }
+
+@media screen and (min-width: 1000px) {
+  .first-article {
+    flex-direction: row; } }
