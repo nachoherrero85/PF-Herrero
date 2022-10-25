@@ -1,3 +1,6 @@
+@import "../base/variables";
+
+/*-------------------------------------------*/
 .listing {
     list-style: none;
     margin: 2em;
@@ -36,6 +39,7 @@
         padding: 10px;
         background-color: $fondo-noticias;
         height: 120px;
+        border-top: $border-noticias;
 
 
 
@@ -91,7 +95,7 @@
         text-decoration: none;
 
         &:hover {
-            color: #eb2f06;
+            color: #df331075;
         }
     }
 }

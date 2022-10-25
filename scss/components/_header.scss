@@ -53,8 +53,14 @@
             text-shadow: 0.1em 0.1em rgb(145, 139, 139);
             font-size: 40px;
             color: black;
+            animation-name: color-t;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            /*animation-iteration-count: 2;*/
+            animation-direction: alternate;
             padding: 5px;
             margin-right: 20px;
+
 
         }
 

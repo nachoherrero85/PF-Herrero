@@ -1,5 +1,17 @@
 $menu-color: rgb(255, 255, 255);
-$border-li-main: rgb(255, 255, 255);
-$a-noticias: rgb(214, 208, 208);
+$border-li-main: rgb(0, 0, 0);
+$a-noticias: rgb(255, 255, 255);
 $border-noticias: 1px solid rgb(0, 0, 0);
-$fondo-noticias: rgba(217, 197, 197, 0.583);
+$fondo-noticias: rgb(255, 255, 255);
+
+@keyframes color-t {
+    from {
+        color: rgb(0, 0, 0);
+    }
+
+    to {
+        color: rgb(241, 46, 46);
+    }
+
+
+}
