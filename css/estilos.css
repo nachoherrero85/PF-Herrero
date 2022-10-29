@@ -28,8 +28,6 @@
   box-shadow: 0 14px 28px rgba(14, 14, 207, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   color: #444; }
 
-/*GRID PUEDE IR DE ACA*/
-/*TODAS LAS CLASES QUE SE USAN PARA APLICAR EN MUCHOS ELEMENTOS*/
 @keyframes color-t {
   from {
     color: black; }
@@ -100,7 +98,7 @@
   gap: 15px;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   border-top: 1 solid white;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
   margin-top: 5px;
   padding: 10px;
   text-align: center;
@@ -258,12 +256,6 @@ button {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2.5rem; }
-  @media (max-width: 1140px) {
-    .posts {
-      grid-template-columns: repeat(2, 1fr); } }
-  @media (max-width: 768px) {
-    .posts {
-      grid-template-columns: repeat(1, 1fr); } }
 
 .post__image {
   width: 100%;
@@ -393,3 +385,11 @@ footer {
 @media screen and (min-width: 1000px) {
   .first-article {
     flex-direction: row; } }
+
+@media (max-width: 1140px) {
+  .posts {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 768px) {
+  .posts {
+    grid-template-columns: repeat(1, 1fr); } }

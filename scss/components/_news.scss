@@ -56,21 +56,12 @@ button {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2.5rem;
 
-    @media(max-width: 1140px) {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    @media(max-width: 768px) {
-        grid-template-columns: repeat(1, 1fr);
-    }
 }
 
 
 $excerpt-height: 5rem * $line-height;
-// title (fontSize + marginBottom) + excerpt + button (marginTop + 2 * paddingTopBottom + fontSize + borderWidth) + safe-space
 $content-height: (
     1.35rem + 1rem) + $excerpt-height + (1rem + 2 * 0.35rem + 1rem) + 0.25rem + 0.1rem;
-// title (fontSize + marginBottom) + excerpt (2 lines)
 $content-height-collapsed: (
     1.35rem + 1rem) + (2rem * $line-height
 );
@@ -109,9 +100,7 @@ $content-overlap: (
         transition: 2s cubic-bezier(0, 0.6, 0.2, 1);
     }
 
-    // overlay
     &:after {
-        // background-color: $primary;
 
         background: linear-gradient(30deg, $primary 0%, $accent 100%);
         background-size: 100% 300%;

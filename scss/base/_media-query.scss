@@ -60,3 +60,13 @@
         flex-direction: row;
     }
 }
+
+.posts {
+    @media(max-width: 1140px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media(max-width: 768px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
