@@ -1,8 +1,16 @@
 $menu-color: rgb(255, 255, 255);
-$border-li-main: rgb(0, 0, 0);
+$border-li-main: rgb(255, 255, 255);
 $a-noticias: rgb(255, 255, 255);
 $border-noticias: 1px solid rgb(0, 0, 0);
 $fondo-noticias: rgb(255, 255, 255);
+
+
+$primary: #042A4F;
+$accent: #de1a1a;
+$secondary: #ccc;
+$bg-color: #f4f4f4;
+$text-color: #2a2a2a;
+$line-height: 1.25;
 
 @keyframes color-t {
     from {
