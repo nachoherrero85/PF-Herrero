@@ -22,7 +22,7 @@
 .titulo_secc {
     background-color: rgba(217, 212, 207, 0.789);
 
-    h4 {
+    h3 {
         font-family: 'Montserrat', sans-serif;
         text-align: center;
         font-weight: bold;
@@ -35,6 +35,11 @@
 
 }
 
+.imagen-galeria img:hover {
+
+    box-shadow: 0 14px 28px rgba(14, 14, 207, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    color: #444;
+}
 
 /*GRID PUEDE IR DE ACA*/
 /*TODAS LAS CLASES QUE SE USAN PARA APLICAR EN MUCHOS ELEMENTOS*/

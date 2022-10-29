@@ -20,11 +20,15 @@
 
 .titulo_secc {
   background-color: rgba(217, 212, 207, 0.789); }
-  .titulo_secc h4 {
+  .titulo_secc h3 {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-weight: bold;
     margin-top: 10px; }
+
+.imagen-galeria img:hover {
+  box-shadow: 0 14px 28px rgba(14, 14, 207, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  color: #444; }
 
 /*GRID PUEDE IR DE ACA*/
 /*TODAS LAS CLASES QUE SE USAN PARA APLICAR EN MUCHOS ELEMENTOS*/
@@ -139,6 +143,72 @@
       background-color: white; }
       .listing li a:hover {
         color: #eb2f06; }
+
+.contact_form {
+  width: 100%;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 30px;
+  font-family: 'Hind Siliguri', sans-serif; }
+  .contact_form input {
+    background-color: #fbfbfb;
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px; }
+  .contact_form textarea {
+    background-color: #fbfbfb;
+    width: 90%;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px; }
+  .contact_form label {
+    display: block;
+    float: center; }
+  .contact_form #enviar {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #fdfcfd;
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 10px;
+    width: 15%;
+    cursor: pointer; }
+    .contact_form #enviar:hover {
+      background-color: #e60e0e;
+      border-color: #ffffff; }
+  .contact_form h2 {
+    font-size: 39px;
+    text-align: letf;
+    padding-bottom: 20px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold; }
+  .contact_form h3 {
+    font-size: 16px;
+    padding-bottom: 30px;
+    color: #0e0e0e;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold; }
 
 .cta {
   margin-top: auto;
