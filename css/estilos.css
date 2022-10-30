@@ -14,7 +14,9 @@
 .cabecera h2 {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 10px; }
 
 .titulo_secc {
   background-color: rgba(217, 212, 207, 0.789); }
@@ -98,7 +100,7 @@
   gap: 15px;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   border-top: 1 solid white;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
   margin-top: 5px;
   padding: 10px;
   text-align: center;
@@ -128,7 +130,7 @@
     text-align: center;
     padding: 10px; }
   .listing li {
-    border: 1px solid white;
+    border: 1px solid #2f2e2e;
     border-radius: 5px;
     display: flex;
     flex-direction: column; }
