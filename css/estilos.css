@@ -15,8 +15,8 @@
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-weight: bold;
-  margin-top: 15px;
-  margin-bottom: 10px; }
+  margin-top: 10px;
+  margin-bottom: 5px; }
 
 .titulo_secc {
   background-color: rgba(217, 212, 207, 0.789); }
@@ -24,7 +24,7 @@
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-weight: bold;
-    margin-top: 10px; }
+    margin-top: 5px; }
 
 .imagen-galeria img:hover {
   box-shadow: 0 14px 28px rgba(14, 14, 207, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -94,15 +94,14 @@
 
 /*-------------------------------------------*/
 .listing {
-  list-style: none;
-  margin: 2em;
   display: grid;
-  gap: 15px;
+  margin: 3em;
+  gap: 10px;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   border-top: 1 solid white;
   border-bottom: 1px solid white;
   margin-top: 5px;
-  padding: 10px;
+  padding: 2px;
   text-align: center;
   background-color: #ffffff;
   border: 1px solid;
@@ -110,32 +109,33 @@
   .listing .foto-port img {
     width: 100%;
     height: 150px;
-    margin-bottom: 15px; }
+    margin-bottom: 1px; }
     .listing .foto-port img:hover {
       filter: grayscale(80%);
       box-shadow: 0 14px 28px #eb4007, 0 10px 10px #d61e1e;
       color: #444; }
   .listing .body {
-    padding: 10px;
-    background-color: rgba(198, 191, 191, 0.281);
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.281);
     height: 110px;
     border-top: 1px solid black; }
     .listing .body p {
       font-family: 'Roboto', sans-serif;
-      text-align: justify;
+      text-align: center;
       padding: 5px; }
-  .listing h2 {
-    font-family: 'Roboto', sans-serif;
+  .listing h4 {
+    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     text-align: center;
-    padding: 10px; }
+    padding: 5px;
+    font-weight: bolder; }
   .listing li {
     border: 1px solid #2f2e2e;
     border-radius: 5px;
     display: flex;
     flex-direction: column; }
     .listing li a {
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Montserrat', sans-serif;
       text-decoration: none;
       color: #000;
       background-color: rgba(198, 191, 191, 0.281); }
@@ -223,7 +223,7 @@
 .container {
   max-width: 1280px;
   margin: 3rem auto;
-  padding: 1rem; }
+  padding: 5px; }
 
 button {
   font-size: 1rem;
@@ -366,6 +366,8 @@ footer {
     gap: 10px;
     margin-top: 10px;
     padding: 5px; }
+    .listing .body {
+      height: auto; }
   .nav-bar {
     flex-direction: column; }
   #galeria {
